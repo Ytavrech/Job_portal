@@ -1,0 +1,15 @@
+<%# <p style="color: green">= notice</p> %>
+
+<h1>welcome Applicants to job portal</h1>
+
+<%# <div id="applicants"> %>
+  <%# @applicants.each do |applicant| %>
+    <%#= render applicant %>
+    <%# <p> %>
+      <%#= link_to "Show this applicant", applicant %>
+    <%# </p> %>
+  <%# end %>
+<%# </div> %>
+
+<%= link_to "view all jobs" %>
+<%= button_to "logout", destroy_user_session_path, method: :delete  %>
